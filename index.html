@@ -1,6 +1,295 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-</body>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>合同会社ブレイヴァリーフィールド</title>
+    <meta
+      name="description"
+      content="合同会社ブレイヴァリーフィールドは住宅・店舗総合リフォーム会社です。"
+    />
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- <link rel="stylesheet" href="css/neo_styles.css"> -->
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="animation.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/SPStyle.css" />
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+
+  <body>
+    <!-- ローティング画面 -->
+    <!-- <div class="Animation" id="logo">
+      <div class="Animation__wrapper">
+        <div class="Animation__target">
+          <img src="img/BF01_png.png" alt="" width="50" height="50" />
+        </div>
+        <div class="Animation__logo"><img src="img/BF02_png.png" alt="" /></div>
+      </div>
+    </div> -->
+
+    <!-- ヘッダー -->
+    <header>
+      <div id="header">
+        <!-- ナビゲーションメニュー -->
+        <nav class="gnav">
+          <ul class="gnav__menu">
+            <li class="site-logo">
+              <a href="index.html">
+                <img
+                  src="img/header.png"
+                  alt="ブレイヴァリーフィールドのロゴ"
+                />
+              </a>
+
+              <div id="js-open" class="nav_toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </li>
+            <li class="gnav__menu__item">
+              <a href="about.html">About us</a>
+            </li>
+            <li class="gnav__menu__item">
+              <a href="service.html">Service</a>
+            </li>
+            <li class="gnav__menu__item">
+              <a href="performance.html">Performance</a>
+            </li>
+            <li class="gnav__menu__item">
+              <a href="recruit.html">Recruit</a>
+            </li>
+            <li class="gnav__menu__item">
+              <a href="contact.html">Contact</a>
+            </li>
+            <li class="gnav__menu__item gnav__menu__item__call">
+              <a class="call_link" href="#">Tel</a>
+            </li>
+          </ul>
+
+        </nav>
+      </div>
+    </header>
+
+    <!-- これ何かわからない -->
+    <div class="bg-thin-grey"></div>
+    <nav id="sp-nav-new">
+      <div class="close-btn">
+        <img src="img/btn_close.png" id="js-close" alt="" height="35px" />
+      </div>
+      <ul class="sp-list">
+        <li><a href="about.html">About us</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="performance.html">Performance</a></li>
+        <li><a href="recruit.html">Recruit</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">TEL</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- アイキャッチ -->
+      <div class="eyecatch">
+        <div class="slide">
+          <img class="default appear" src="img/eyecatch.png" alt="" />
+          <img class="default" src="img/slideShow/architecture-1477041_1280.jpg" alt="" />
+          <img class="default" src="img/slideShow/field-768601_1920.jpg" alt="" />
+          <img class="default" src="img/slideShow/nature-3294681_1920.jpg" alt="" />
+        </div>
+        <h1>愛情あるサポートで理想の暮らしを</h1>
+      </div>
+
+      <!-- About -->
+      <section class="top-page">
+        <div class="page">
+          <h1>About</h1>
+          <h2>合同会社ブレイヴァリーフィールドとは</h2>
+          <div class="border"></div>
+          <p class="sp-left">
+            一般住宅・アパート・マンション・テナントなどのリフォーム業を営む総合リフォーム会社です。
+            <br />また自然災害で破損や変形など被害にあったお宅の「住宅自然災害サポート」も行っています。
+            <br />※詳しくはサービス/製品一覧をご覧ください。
+            <br />※ブログにて過去の施工例などを公開しています。ぜひご覧ください。
+            <br />相談・現場調査・見積り一切無料。
+          </p>
+          <a href="about.html" class="more-btn">More</a>
+        </div>
+      </section>
+
+      <!-- Service -->
+      <section class="top-page">
+        <div class="page special-padding">
+          <h1>Service</h1>
+          <h2>事業概要</h2>
+          <div class="border"></div>
+          <div class="boxContainer">
+            <div
+              class="box"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-once="true"
+            >
+              <a href="service.html#renovation"><div class="servise__box topbox">
+                <div class="servise__title__wrapper">
+                  <h3 class="servise-title">Reform<span class="servise-subtitle">リフォーム</span></h3>
+                </div>
+              </div></a>
+            </div>
+            <div
+              class="box"
+              data-aos="fade-right"
+              data-aos-delay="400"
+              data-aos-offset="200"
+              data-aos-once="true"
+            >
+              <a href="service.html#support"><div class="servise__box secondbox">
+                <div class="servise__title__wrapper">
+                    <h3 class="servise-title">Support<span class="servise-subtitle">申請サポート</span></h3>
+                </div>
+              </div></a>
+            </div>
+            <div
+              class="box"
+              data-aos="fade-right"
+              data-aos-delay="800"
+              data-aos-offset="200"
+              data-aos-once="true"
+            >
+              <a href="service.html#inspection"><div class="servise__box thirdbox">
+                <div class="servise__title__wrapper">
+                    <h3 class="servise-title">Check<span class="servise-subtitle">無料点検サービス</span></h3>
+                </div>
+              </div></a>
+            </div>
+            <div
+              class="box"
+              data-aos="fade-right"
+              data-aos-delay="1200"
+              data-aos-offset="200"
+              data-aos-once="true"
+            >
+              <a href="service.html#soundproof"><div class="servise__box lastbox">
+                <div class="servise__title__wrapper">
+                    <h3 class="servise-title">Soundproof<span class="servise-subtitle">防音工事</span></h3>
+                </div>
+              </div></a>
+            </div>
+          </div>
+          <a href="service.html" class="more-btn">More</a>
+        </div>
+      </section>
+
+
+      <!-- Performance -->
+      <section class="top-page">
+        <div
+          class="performance"
+          data-aos="flip-left"
+          data-aos-offset="250"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
+          <div class="page">
+            <h1 class="section-title-new">Performance</h1>
+            <h2>実績一覧</h2>
+            <div class="border"></div>
+            <p class="sp-left">
+              「満足いく仕上がり」につながると確信し、着工前のお見積りの段階や、
+              <br />それ以前のご相談の段階から親身に着実に対応させていただいております。
+              <br />お客様の悩み、完成後のイメージ、今後の暮らしに合わせたご提案など
+              <br />良好な関係だからこそ引き出すことができるものだと思います。
+              <br />信頼できる担当者のさまざまな実績を掲載しております。
+              <br />お気軽にお問い合わせください。
+            </p>
+            <a href="performance.html" class="more-btn">More</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recruit -->
+      <section class="top-page">
+        <div class="page">
+          <h1>Recruit</h1>
+          <h2>採用情報</h2>
+          <div class="border"></div>
+          <p class="sp-left">
+            合同会社ブレイヴァリーフィールドは、お客様とのコミュニケーションを第一に考え、
+            <br />私たちとともに「家づくり」に取り組む人材を求め、中途採用・新卒採用を行っております。
+            <br />お気軽にお問い合わせください。
+          </p>
+          <a href="recruit.html" class="more-btn">More</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- <div id="page_top"><a href="#"></a></div> -->
+      <div class="footer__logo">
+        <a href="index.html">
+          <img
+            src="img/header.png"
+            alt="ブレイヴァリーフィールドのロゴ"
+            width="260"
+            height="50"
+          />
+        </a>
+      </div>
+      <div class="footer__address">
+        <p>東京都町田市原町田5-5-27</p>
+        <p>TEL. 042-709-7501</p>
+        <p>FAX. 042-709-7502</p>
+      </div>
+
+      <a href="recruit.html" class="btn__contact">Contact us</a>
+      <a href="recruit.html" class="btn__contact">LINE@の登録</a>
+
+
+      <div class="footer__policy">
+          <p><a href="privacy.html">Privacy policy</a></p>
+        </div>
+
+
+      <!-- <nav class="footer__box">
+        <ul class="footer__menu">
+          <li class="footer__list__menu footer__first__menu">
+            <a href="service.html">事業概要</a>
+          </li>
+          <li class="footer__list__menu"><a href="about.html">会社情報</a></li>
+          <li class="footer__list__menu">
+            <a href="performance.html">実績一覧</a>
+          </li>
+          <li class="footer__list__menu">
+            <a href="contact.html">お問い合わせ</a>
+          </li>
+          <li class="footer__list__menu">
+            <a href="recruit.html">採用情報</a>
+          </li>
+          <li class="footer__list__menu">
+            <a href="privacy.html">プライバシーポリシー</a>
+          </li>
+        </ul>
+      </nav> -->
+      <div class="copyright">
+        <p>Copyright&copy;braveryfield, All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>

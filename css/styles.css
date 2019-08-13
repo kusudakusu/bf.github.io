@@ -1,0 +1,1189 @@
+:root {
+  --section-width: 90%;
+}
+
+body {
+  font-family: "ＭＳ 明朝", serif;
+  position: relative;
+}
+
+header {
+  width: 100vw;
+  /* overflow: hidden; */
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 22px
+}
+
+p {
+  font-size: 16px;
+  font-family: "ＭＳ 明朝", serif;
+
+}
+
+section.top-page {
+  position: relative;
+  width: var(--section-width);
+  margin: auto;
+}
+
+/*** レスポンシブデザイン -> 外部cssへ ***/
+/*************************************
+*************** ~1100px **************
+*************************************/
+.box {
+  width: 100%;
+}
+
+.boxContainer {
+  display: flex;
+  margin-top: 18.5px;
+  justify-content: center;
+}
+
+.boxContainer h3 {
+  font-size: 20px;
+}
+
+.servise__box .servise__title__wrapper {
+  background-color:rgba(5,5,5,0.6);
+  position: relative;
+  width: 100%;
+  height: inherit;
+  letter-spacing: 0.2em;
+  transition: .5s linear;
+}
+
+.servise__box .servise__title__wrapper:hover {
+  background-color:rgba(5,5,5,0.1);
+  transition: .3s linear;
+}
+
+
+.servise__box .servise-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 32px;
+  font-weight: normal;
+  font-family: serif;
+}
+
+.servise__box .servise-subtitle {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 0.5em;
+}
+
+
+
+
+
+
+.topbox {
+  background-image: url("../img/servise-img/painter-1246619_1920.jpg");
+  background-position: 40% 45%;
+  background-size: 250% auto;
+  width: 100%;
+  height: 182px;
+}
+
+.secondbox {
+  background-image: url("../img/servise-img/team-3373638_1920.jpg");
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 182px;
+}
+
+.thirdbox {
+  background-image: url("../img/servise-img/light-bulb-1246043_1920.jpg");
+  background-position:  50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 182px;
+}
+
+.lastbox {
+  background-image: url("../img/servise-img/military-jets-1109093_1920.jpg");
+  background-position:  50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 182px;
+}
+
+.service__img {
+  background-image: url("../img/tree-2916763_1280.jpg");
+  height: 350px;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+.service__menu {
+  width: 77%;
+  height: 80px;
+  margin-top: -22px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+  margin-bottom: 40px;
+}
+
+.renovation__img {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/renovation.png");
+  height: 400px;
+  width: 84%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.bnav li {
+  width: 25%;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0.2em;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+  padding-bottom: 5px;
+}
+
+.bnav .bnav__menu {
+  border-bottom: none;
+}
+
+.support__img {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/support.png");
+  height: 400px;
+  width: 84%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.inspection__img {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/inspection.png");
+  height: 400px;
+  width: 84%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.soundproof__img {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/soundproof.png");
+  height: 400px;
+  width: 84%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.performance__img {
+  background-image: url("../img/performance.png");
+  height: 350px;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+.recruit__img {
+  background-image: url("../img/recruit.png");
+  height: 350px;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+.recruit2__img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  background-image: url("../img/recruit2.png");
+  height: 400px;
+  width: 84%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.about__img {
+  background-image: url("../img/abo.png");
+  height: 350px;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+.about__menu {
+  width: 77%;
+  height: 80px;
+  margin-top: -22px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+  margin-bottom: 40px;
+}
+
+.message__img {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/message.png");
+  margin-top: 100px;
+  height: 400px;
+  width: 84%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.abo__sentence p {
+  font-size: 16px;
+  padding-top: 21px;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+}
+
+.information__img {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/information.png");
+  margin-top: 100px;
+  height: 400px;
+  width: 84%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+iframe {
+  width: 70%;
+  height: 350px;
+  margin-top: 100px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 50px;
+}
+
+.contact__img {
+  background-image: url("../img/finger-2056030_1920.jpg");
+  height: 350px;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+.privacy__img {
+  background-image: url("../img/privacy.png");
+  height: 350px;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+.service__page > p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  padding-top: 50px;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+  width: 65%;
+}
+
+.service__page > h4 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+  font-family: "Yu Mincho", "YuMincho";
+}
+
+.table__menu__1 {
+  padding-left: 30px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  width: 47%;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+}
+
+/*************************************
+*************** ~1100px **************
+*************************************/
+
+/* ヘッダー */
+#header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 8;
+  width: 100%;
+  height: 90px;
+  vertical-align: middle;
+}
+
+
+.gnav {
+  width: 100%;
+  height: 100%;
+  font-family: "ＭＳ 明朝", serif;
+
+  /* margin: 0 auto; */
+}
+
+.site-logo {
+  height: 15%;
+  width: auto;
+  margin: auto;
+  margin-left: 3.9vw;
+  /* margin-top: 15px; */
+}
+
+.gnav__menu {
+  display: flex;
+  align-items: center;
+}
+
+.gnav__menu__item {
+  /* width: 10%; */
+  height: auto;
+  /* margin-top: 35px; */
+  margin-left: 4vw;
+}
+
+.gnav__menu__item a {
+  position: relative;
+  padding: 1em 0 0.5em;
+  color: #333;
+  text-decoration: none;
+}
+
+.gnav__menu__item:not(:last-child) a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  transition: all 0.2s ease-out;
+  background-color: #000;
+}
+
+.gnav__menu__item a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.gnav__menu__item__call {
+  background-color: #000;
+  color: white;
+  margin-left: 2vw;
+}
+
+a.call_link {
+  transition: all 0.5s linear 0s;
+  color: white;
+  height: 90px;
+  line-height: 90px;
+  padding: 0 3.6vw;
+  display: inline-block;
+}
+
+a.call_link:hover {
+  transform: scale(1.3);
+}
+
+.space {
+  height: 100%;
+}
+
+#sp-nav-modal {
+  display: none;
+}
+
+#gloval-nav {
+  background: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* bottom: 0; */
+  z-index: 990;
+  text-align: center;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 29px;
+  opacity: 0;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+.open #gloval-nav {
+  visibility: visible;
+  opacity: 1;
+}
+
+.bg-thin-grey {
+  z-index: 2;
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+#sp-nav-new {
+  display: none;
+}
+
+.eyecatch {
+  position: relative;
+  width: var(--section-width);
+  margin: 0 auto 100px; 
+}
+
+.eyecatch .slide {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+  overflow: hidden;
+}
+
+.eyecatch .slide img {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 100vh;
+}
+
+.default {
+  transition: opacity 5s ease 0s, transform 1s ease 4s;
+  opacity: 0;
+  transform: scale(2);
+}
+
+.default.appear {
+  transition: all 5s ease 0s;
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* @keyframes img-wrap {
+  0% {
+    clip-path: circle(0 at 50% 50%);
+    -webkit-clip-path: circle(0 at 50% 50%);
+  }
+  100% {
+    clip-path: circle(100% at 50% 50%);
+    -webkit-clip-path: circle(100% at 50% 50%);
+  }
+} */
+
+.eyecatch > h1 {
+  position: absolute;
+  font-size: 3.3vw;
+  top: 85%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  padding:40px 70px;
+  background-color: #fff;
+  text-align: center;
+  z-index: 5;
+  color: black;
+  font-family: "ＭＳ 明朝", serif;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.16);
+}
+
+.page {
+  text-align: center;
+  padding-bottom: 8.6vw;
+}
+
+.special-padding.page {
+  padding-bottom: 10.5vw;
+}
+
+.page > h1 {
+  margin-left: 1px;
+  font-size: 3.3vw;
+  padding-bottom: 8px;
+  font-family: serif;
+  letter-spacing: 0.2em;
+}
+
+.page .section-title-new {
+  position: relative; 
+  top: -0.5em;
+  padding-top: 0;
+}
+
+.page .section-title-new + h2 {
+  margin-top: 0;
+}
+
+.border {
+  width: 45px;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+  margin: 3em auto 0;
+}
+
+.page > h2 {
+  margin-left: 1px;
+  font-size: 1.7vw;
+  margin-top: 1em;
+  font-family: serif;
+  letter-spacing: 0.2em;
+}
+
+.page > p {
+  font-size: 16px;
+  padding-top: 50px;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+}
+
+.boxContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.boxContainer > div {
+  width: 50%;
+}
+
+/*ボタンのアニメーション */
+
+.more-btn {
+  margin-top: 50px;
+  width: 250px;
+  height: 56px;
+  line-height: 56px;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-family: Microsoft New Tai Lue;
+  color: #333;
+  border: 1px solid rgba(70, 70, 70, 0.3);
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "ＭＳ 明朝", serif;
+  transition:.5s linear;
+  /* transition: all .5s ease-in-out 0s; */
+}
+
+.more-btn:hover {
+  color: white;
+  background-color: #000;
+  transition:.3s linear;
+  /* transition: all .1s ease-in-out .1s; */
+}
+
+/* button > a{
+  text-decoration:none;
+  color: #333;
+  font-family: Microsoft New Tai Lue;
+  letter-spacing:  0.2em;
+} */
+
+.performance {
+  background-image: url("../img/lux.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.performance h1 {
+  padding-top: 100px;
+}
+
+.performance button {
+  margin-top: 124px;
+}
+
+.titleborder {
+  width: 99px;
+  border-bottom: 3px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  text-align: center;
+  padding-top: 157.5px;
+  margin-bottom: 58px;
+}
+
+.title > h1 {
+  font-size: 45px;
+  margin-left: 1px;
+  padding-top: 20.5px;
+  padding-bottom: 20px;
+  letter-spacing: 0.2em;
+}
+
+.title > h2 {
+  margin-left: 1px;
+  font-size: 25px;
+  font-family: "Yu Mincho", "YuMincho";
+  letter-spacing: 0.2em;
+}
+
+.anav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.anav a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  color: #333;
+  line-height: 80px;
+  transition: all 0.4s ease-in-out 0s;
+}
+.anav a:hover {
+  color: white;
+  background: #000;
+}
+
+.service__page {
+  margin-top: -88px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 77%;
+  padding-bottom: 100px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+}
+
+.service__page > h1 {
+  text-align: center;
+  margin-left: 1px;
+  padding-top: 65px;
+  font-size: 35px;
+  padding-bottom: 8px;
+  font-family: Microsoft New Tai Lue;
+  letter-spacing: 0.2em;
+}
+
+.service__page > h2 {
+  text-align: center;
+  margin-left: 1px;
+  font-size: 25px;
+  padding-top: 52px;
+  font-family: "Yu Mincho", "YuMincho";
+  letter-spacing: 0.2em;
+}
+
+.service__page > h3 {
+  text-align: center;
+  margin-left: 1px;
+  font-size: 20px;
+  padding-top: 50px;
+  letter-spacing: 0.2em;
+}
+
+.service__page > p {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 50px;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+}
+
+.bnav {
+  list-style: none;
+  display: flex;
+}
+
+.bnav li {
+  width: 20%;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0.2em;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+  padding-bottom: 5px;
+}
+
+.bnav .bnav__menu {
+  border-bottom: none;
+}
+
+.service__page > h4 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+  font-family: "Yu Mincho", "YuMincho";
+}
+
+.performance__page {
+  margin-top: -43px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 77%;
+  padding-bottom: 100px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+}
+
+.performance__page > h1 {
+  margin-left: 50px;
+  padding-top: 65px;
+  font-size: 35px;
+  padding-bottom: 8px;
+  font-family: Microsoft New Tai Lue;
+  letter-spacing: 0.2em;
+}
+
+.performance__border {
+  margin-left: 50px;
+  width: 45px;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+}
+
+.performance__contents{
+  margin:30px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.performance__contents__img{
+  background:url("../img/lux.png");
+  background-size: cover;
+  width:33%;
+  height: 250px;
+  margin-bottom:30px;
+}
+
+.performance__page > p{
+  margin-left:50px;
+}
+
+.about__page {
+  margin-top: -43px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 77%;
+  background-color: #fff;
+}
+
+.about__page > h1 {
+  text-align: center;
+  margin-left: 1px;
+  padding-top: 65px;
+  font-size: 35px;
+  padding-bottom: 8px;
+  /* font-family: Microsoft New Tai Lue; */
+  letter-spacing: 0.2em;
+}
+
+.about__page > h2 {
+  text-align: center;
+  margin-left: 1px;
+  font-size: 25px;
+  padding-top: 52px;
+  /* font-family: "Yu Mincho", "YuMincho"; */
+  letter-spacing: 0.2em;
+}
+
+.about__page > h3 {
+  text-align: center;
+  margin-left: 1px;
+  font-size: 20px;
+  padding-top: 50px;
+  letter-spacing: 0.2em;
+}
+
+.about__page > p {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 50px;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+}
+
+.recruit__menu {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid rgba(70, 70, 70, 0.3);
+}
+
+.recruit__menu li {
+  padding-left: 14px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+  letter-spacing: 0.2em;
+}
+
+.recruit__page {
+  margin-top: -43px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+  width: 77%;
+  background-color: #fff;
+}
+
+.recruit__page > h1 {
+  text-align: center;
+  margin-left: 1px;
+  padding-top: 65px;
+  font-size: 35px;
+  padding-bottom: 8px;
+  font-family: Microsoft New Tai Lue;
+  letter-spacing: 0.2em;
+}
+
+.recruit__page > h2 {
+  text-align: center;
+  margin-left: 1px;
+  font-size: 25px;
+  padding-top: 52px;
+  font-family: "Yu Mincho", "YuMincho";
+  letter-spacing: 0.2em;
+}
+
+.recruit__page > h3 {
+  text-align: center;
+  margin-left: 1px;
+  font-size: 20px;
+  padding-top: 50px;
+  letter-spacing: 0.2em;
+}
+
+.recruit__page > p {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 50px;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+}
+
+.page__table {
+  width: 100%;
+  margin-top: 50px;
+  border-top: 1px solid rgba(70, 70, 70, 0.3);
+  letter-spacing: 0.2em;
+}
+
+.page__table__1 {
+  height: 50px;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+}
+
+.page__table th {
+  width: 30%;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.page__table__1 > td {
+  padding-left: 30px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+
+.page__table__2 {
+  height: 50px;
+}
+
+.page__table__2 > td {
+  padding-left: 30px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+
+.recruit__page__2 > h3 {
+  text-align: center;
+  margin-left: 1px;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+
+.abo__page {
+  margin-top: -43px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 77%;
+  background-color: #fff;
+}
+
+.abo__page > h1 {
+  text-align: center;
+  margin-left: 1px;
+  padding-top: 65px;
+  font-size: 35px;
+  padding-bottom: 8px;
+  font-family: Microsoft New Tai Lue;
+  letter-spacing: 0.2em;
+}
+
+.abo__page > h2 {
+  text-align: center;
+  margin-left: 1px;
+  font-size: 25px;
+  padding-top: 52px;
+  font-family: "Yu Mincho", "YuMincho";
+  letter-spacing: 0.2em;
+}
+
+.abo__sentence {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.abo__sentence {
+  padding-top: 29px;
+}
+
+.message__name {
+  float: right;
+}
+
+.abo__space {
+  height: 100px;
+}
+
+.abo__border {
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+  padding-top: 100px;
+}
+
+.abo__page th {
+  width: 23%;
+}
+
+.page__table p {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+}
+
+.page__table__3 {
+  height: 50px;
+}
+
+.table__menu__1 {
+  padding-left: 30px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  width: 40%;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+}
+
+.table__menu__2 {
+  padding-top: 14px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+}
+
+.table__menu__3 {
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+}
+
+.contact {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact table {
+  width: 100%;
+}
+
+.contact tr {
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+}
+
+.contact th {
+  margin-top: 70px;
+  margin-left: 30px;
+  float: left;
+  font-family: "ＭＳ ゴシック", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+}
+
+.contact td {
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 40px;
+  float: left;
+}
+
+.contact td input {
+  border: none;
+  font-family: "ＭＳ ゴシック", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  padding-bottom: 15px;
+}
+
+.contact textarea {
+  border: none;
+  height: 150px;
+  width: 70%;
+  font-family: "ＭＳ ゴシック", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  opacity: 0.5;
+}
+
+.privacy__menu {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid rgba(70, 70, 70, 0.3);
+}
+
+.privacy__menu__1 {
+  width: 95%;
+  padding-left: 26px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+  line-height: 30px;
+  letter-spacing: 0.2em;
+}
+
+.privacy__menu__2 {
+  width: 95%;
+  padding-left: 52px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  letter-spacing: 0.2em;
+}
+
+.privacy__menu__3 {
+  width: 95%;
+  padding-left: 52px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(70, 70, 70, 0.3);
+  letter-spacing: 0.2em;
+}
+
+/* contact.html */
+.form__content {
+  margin-bottom: 3em;
+}
+
+.form__title {
+  font-family: "Yu Gothic";
+  margin-bottom: 1em;
+}
+
+.form__input {
+  width: 100%;
+  padding: 0.5em 0 0.5em 0.5em;
+  border: none;
+  border-bottom: 1px solid #acacac;
+  outline: none;
+}
+
+.form__text {
+  padding: 0.5em 0 0.5em 0.5em;
+  width: 100%;
+  height: 10em;
+}
+
+.submit-btn {
+  width: 150px;
+  height: 45px;
+  margin: auto;
+}
+
+.form__submit {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #6f6969;
+}
+
+/* スクロールボタン
+#page_top{
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: black;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 70px;
+  height: 70px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: FontAwesome;
+  content: '\f062';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a:hover {
+  opacity: 0.4;
+  transition:all 0.3s ease-in-out 0s;
+}
+ */

@@ -1,0 +1,55 @@
+.Animation{
+  position: fixed;
+  z-index: 9999;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #fff;
+}
+
+.Animation__wrapper {
+  position: absolute;
+  width: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width:960px) {
+  .Animation__wrapper {
+    width: 80%;
+  }
+}
+
+.Animation__target {
+    position: relative;
+    left: calc(-50vw + -100%);
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    /* transform: translateX(calc(-50vw + -100%)); */
+}
+
+.Animation__target.active {
+  transition: all 3s 0s ease-out;
+  left: 0;
+  transform: rotate(360deg) rotate(360deg);
+  -webkit-transform: translateX(0) rotate(360deg) rotate(360deg);
+  -moz-transform: translateX(0) rotate(360deg) rotate(360deg);
+  -o-transform: translateX(0) rotate(360deg) rotate(360deg);
+  -ms-transform: translateX(0) rotate(360deg) rotate(360deg);
+}
+
+.Animation__logo {
+  opacity: 0;
+}
+
+.Animation__logo.active{
+  transition: all .5s linear;
+  opacity: 1;
+}
+
+.Animation__logo img {
+  width: 100%;
+}
+
