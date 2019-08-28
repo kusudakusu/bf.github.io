@@ -502,18 +502,29 @@ a.call_link:hover {
 
 .eyecatch > h1 {
   position: absolute;
-  font-size: 3.3vw;
-  top: 85%;
-  left: 40%;
+  font-size: 3.2vw;
+  letter-spacing: 0.1em;
+  top: 55%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
-  padding:40px 70px;
-  background-color: #fff;
+  /* padding:40px 70px; */
+  /* background-color: #fff; */
   text-align: center;
   z-index: 5;
   color: black;
   font-family: "ＭＳ 明朝", serif;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.16);
+}
+
+.eyecatch > h1::after{
+  content:"「リフォームには人生を変える力がある」";
+  font-size: 2.4vw;
+  color:blue;
+  display: block;
+  text-align: center;
+  margin-top:20px;
+  
 }
 
 .page {
@@ -845,6 +856,16 @@ a.call_link:hover {
   letter-spacing: 0.2em;
 }
 
+.font__bold{
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.font__red{
+  color: #ff0000;
+  margin-bottom:20px;
+}
+
 .recruit__menu {
   width: 50%;
   margin-top: 50px;
@@ -956,7 +977,7 @@ a.call_link:hover {
   background-color: #fff;
 }
 
-.abo__page > h1 {
+.abo__page  h1 {
   text-align: center;
   margin-left: 1px;
   padding-top: 65px;
@@ -966,7 +987,7 @@ a.call_link:hover {
   letter-spacing: 0.2em;
 }
 
-.abo__page > h2 {
+.abo__page  h2 {
   text-align: center;
   margin-left: 1px;
   font-size: 25px;
