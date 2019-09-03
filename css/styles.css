@@ -26,6 +26,13 @@ p {
 
 }
 
+img {
+  width:auto;
+  height:auto;
+  max-width:100%;
+  max-height:100%;
+}
+
 section.top-page {
   position: relative;
   width: var(--section-width);
@@ -514,13 +521,19 @@ a.call_link:hover {
   z-index: 5;
   color: black;
   font-family: "ＭＳ 明朝", serif;
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.16);
+  text-shadow: 0px 0px 5px #4d4c4c,
+  0px 0px 20px rgb(99, 98, 98), 
+  0px 0px 40px rgb(141, 140, 140), 
+  0px 0px 60px rgb(197, 196, 196),
+  0px 0px 80px rgb(235, 234, 234),
+  0px 0px 100px rgb(252, 251, 251);	
+  /* text-shadow: 20px 20px 0px rgba(255, 255, 255,); */
 }
 
 .eyecatch > h1::after{
   content:"「リフォームには人生を変える力がある」";
   font-size: 2.4vw;
-  color:blue;
+  color:#00b7ce;
   display: block;
   text-align: center;
   margin-top:20px;
@@ -687,6 +700,10 @@ a.call_link:hover {
   background: #000;
 }
 
+#name{
+  display: none;
+}
+
 .service__page {
   margin-top: -88px;
   margin-left: auto;
@@ -704,7 +721,7 @@ a.call_link:hover {
   padding-top: 65px;
   font-size: 35px;
   padding-bottom: 8px;
-  font-family: Microsoft New Tai Lue;
+  /* font-family: Microsoft New Tai Lue; */
   letter-spacing: 0.2em;
 }
 
@@ -767,6 +784,11 @@ a.call_link:hover {
   font-family: "Yu Mincho", "YuMincho";
 }
 
+.performance{
+  padding:30px;
+  text-align: center;
+}
+
 .performance__page {
   margin-top: -43px;
   margin-left: auto;
@@ -783,7 +805,7 @@ a.call_link:hover {
   padding-top: 65px;
   font-size: 35px;
   padding-bottom: 8px;
-  font-family: Microsoft New Tai Lue;
+  /* font-family: Microsoft New Tai Lue; */
   letter-spacing: 0.2em;
 }
 
@@ -983,7 +1005,7 @@ a.call_link:hover {
   padding-top: 65px;
   font-size: 35px;
   padding-bottom: 8px;
-  font-family: Microsoft New Tai Lue;
+  /* font-family: Microsoft New Tai Lue; */
   letter-spacing: 0.2em;
 }
 

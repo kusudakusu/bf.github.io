@@ -13,6 +13,10 @@ footer {
   margin-top: 30px;
 }
 
+.footer__policy{
+  text-align: center;
+}
+
 /* スクロールボタン */
 #page_top {
   width: 70px;

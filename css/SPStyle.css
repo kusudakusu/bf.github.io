@@ -87,29 +87,58 @@
     top: 60px;
   }
 
-  /* .eyecatch {
-    background-image: url("../img/eyecatch.png");
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    height: 400px;
+  
+
+  .eyecatch {
+    /* background-image: url("../img/eyecatch.png"); */
+    /* background-position: 50% 50%;
+    background-repeat: no-repeat; */
+    height: 100vh;
     width: 100%;
     margin-bottom: 100px;
-  } */
+    overflow: hidden;
+  }
 
-  /* .eyecatch > h1 { */
-    /* font-size: 45px; */
-    /* font-size: 6vw;
-    color: #1d9000;
+  .eyecatch > h1 { 
+    font-size: 7.0vw;
     text-align: center;
-    padding-top: 200px;
-    font-family: "MS Mincho", "ＭＳ 明朝", serif;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.16);
-  } */
+    line-height:9.2vw;
+  } 
+
+  .eyecatch > h1::after{
+    font-size:3.6vw;
+    line-height:4.8vw;
+    margin-top:40px;
+  }
+
+  section.top-page{
+    width:100%;
+  }
+
+  .sp-left {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding: 30px;
+  }
+
+  .page,
+  .special-padding.page{
+    padding-bottom: 120px;
+  }
+
+  .page > h1{
+    font-size:24px;
+  }
+
+  .page > h2{
+    font-size:18px
+  }
 
   .boxContainer {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin: 18.5px auto;
   }
 
@@ -121,13 +150,13 @@
     font-size: 20px;
   }
 
-  .topbox, .middle, .smallbox {
+  /* .topbox, .middle, .smallbox {
     width: 60%;
     margin: 0 auto 2em;
     box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
-  }
+  } */
 
-  .topbox img {
+  /* .topbox img {
     margin-bottom: 70px;
     height: 200px;
     width: auto;
@@ -148,25 +177,40 @@
     margin-bottom: 70px;
     height: 200px;
     width: auto;
+  } */
+
+  .about__menu{
+    height:auto;
+    /* overflow: hidden; */
+  }
+
+  .anav{
+    display: none;
+  }
+
+  #name{
+    display: block;
   }
 
   .service__img {
-    background-image: url("../img/about.png");
+    /* background-image: url("../img/about.png");
     height: 250px;
     background-size: cover;
     background-position: 50% 50%;
-    width: 100%;
+    width: 100%; */
+    display: none;
   }
 
   .service__menu {
-    width: 84%;
+    /* width: 84%;
     height: 80px;
     margin-top: -22px;
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
     border-bottom: 1px solid rgba(70, 70, 70, 0.3);
-    margin-bottom: 40px;
+    margin-bottom: 40px; */
+    display: none;
   }
 
   .renovation__img {
@@ -174,9 +218,13 @@
     margin-right: auto;
     background-image: url("../img/renovation.png");
     height: 300px;
-    width: 84%;
+    width: 100%;
     background-size: cover;
     background-position: 50% 50%;
+  }
+
+  .service__page{
+    width:95%;
   }
 
   .bnav li {
@@ -199,7 +247,7 @@
     margin-right: auto;
     background-image: url("../img/support.png");
     height: 300px;
-    width: 84%;
+    width: 100%;
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -209,7 +257,7 @@
     margin-right: auto;
     background-image: url("../img/inspection.png");
     height: 300px;
-    width: 84%;
+    width: 100%;
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -236,39 +284,58 @@
     margin-top: 100px;
     background-image: url("../img/recruit2.png");
     height: 300px;
-    width: 84%;
+    width: 100%;
     background-size: cover;
     background-position: 50% 50%;
+  }
+
+  .soundproof__img{
+    width:100%;
   }
 
   .about__img {
-    background-image: url("../img/abo.png");
+    /* background-image: url("../img/abo.png");
     height: 250px;
     background-size: cover;
     background-position: 50% 50%;
-    width: 100%;
+    width: 100%; */
+    display: none;
   }
 
   .about__menu {
-    width: 84%;
+    /* width: 84%;
     height: 80px;
     margin-top: -22px;
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
     border-bottom: 1px solid rgba(70, 70, 70, 0.3);
-    margin-bottom: 40px;
+    margin-bottom: 40px; */
+    display: none;
   }
 
   .message__img {
     margin-left: auto;
     margin-right: auto;
     background-image: url("../img/message.png");
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    margin-top: 10px;
     height: 300px;
-    width: 84%;
+    width: 100%;
     background-size: cover;
     background-position: 50% 50%;
+  }
+
+  .abo__page{
+    width:95%;
+  }
+
+  .about__page{
+    width:95%;
+  }
+
+  .recruit__page{
+    width:95%;
   }
 
   .abo__sentence p {
@@ -284,7 +351,7 @@
     background-image: url("../img/information.png");
     margin-top: 100px;
     height: 300px;
-    width: 84%;
+    width: 100%;
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -298,7 +365,7 @@
   }
 
   .contact__img {
-    background-image: url("../img/contact.png");
+    background-image: url("../img/finger-2056030_1920.jpg");
     height: 250px;
     background-size: cover;
     background-position: 50% 50%;
@@ -313,10 +380,7 @@
     width: 100%;
   }
 
-  .sp-left {
-    width: 70%;
-    margin: auto;
-    text-align: left;
-    padding: 30px;
-  }
+  
+
+  
 }
